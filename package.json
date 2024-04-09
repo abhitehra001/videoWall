@@ -6,7 +6,9 @@
     "scripts": {
         "start": "node backend.js",
         "dev": "nodemon backend.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "puppeteer": "npx puppeteer browsers install chrome",
+        "dev2": "npm run puppeteer && npm run dev"
     },
     "author": "",
     "license": "ISC",
