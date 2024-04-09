@@ -8,7 +8,7 @@
         "dev": "nodemon backend.js",
         "test": "echo \"Error: no test specified\" && exit 1",
         "puppeteer": "npx puppeteer browsers install chrome",
-        "dev2": "npm run puppeteer && npm run dev"
+        "dev2": "npm run puppeteer && npm i"
     },
     "author": "",
     "license": "ISC",
