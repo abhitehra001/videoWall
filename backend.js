@@ -32,7 +32,7 @@ app.post("/join", async (req, res) => {
     const joineeName = name.trim();
     console.log(meetId, meetPassCode, joineeName);
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: [
         "--disable-notifications",
         "--enable-automation",
